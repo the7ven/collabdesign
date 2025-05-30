@@ -54,7 +54,7 @@ nav{
   color: #d371f1;
 }
 
- .nav-btn a{
+ .nav-links .nav-btn a{
   background-color: blueviolet;
   color: #fff;
   padding: 10px 16px;
@@ -65,7 +65,7 @@ nav{
   
 }
 
-.nav-btn a:hover {
+.nav-links .nav-btn a:hover {
   transform: scale(1.05);
   color: black;
 }
@@ -78,4 +78,36 @@ nav{
 .socials img {
   width: 24px;
   height: 24px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 4rem;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+   
+}
+.hero-text h4 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: blueviolet;
+}
+
+.hero-text p{
+    font-weight: 500;
 }
